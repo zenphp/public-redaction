@@ -1,0 +1,6 @@
+name: Public Redaction
+type: module
+description: A text filter and WYSIWYG plugin to allow for sensitive information to be &quot;redacted&quot; when viewed by users who do not have permission to view it.
+package: Custom
+core: 8.x
+core_version_requirement: ^8 || ^9
