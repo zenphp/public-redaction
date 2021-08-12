@@ -141,6 +141,9 @@ class FilterRedact extends FilterBase implements ContainerFactoryPluginInterface
 
         }
         $result->setProcessedText(Html::serialize($dom))
+          ->setCacheContexts([
+            'user.permissions'
+          ])
           ->addAttachments([
             'library' => [
               'public_redaction/public_redaction',
