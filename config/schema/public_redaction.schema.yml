@@ -1,0 +1,7 @@
+filter_settings.public_redaction_redact:
+  type: filter
+  label: 'Redact filter'
+  mapping:
+    replacement:
+      type: string
+      label: Replacement Text
