@@ -40,7 +40,7 @@
       editor.ui.addButton('redact-text', {
 
         // The text part of the button (if available) and the tooltip.
-        label: Drupal.t('Insert abbreviation'),
+        label: Drupal.t('Redact Text'),
 
         // The command to execute on click.
         command: 'redactText',
